@@ -1,0 +1,34 @@
+/* NAVIGATION BAR */
+.nav__container {
+  background-color: #fff;
+  min-height: var(--navbar-height);
+
+  font-size: 0.875rem;
+
+  align-items: center;
+  justify-content: space-between;
+
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  /* width: 100%; */
+}
+
+.logo--nav {
+  height: 40px;
+  /* width: 120px; */
+}
+
+.nav__list-container {
+  /* border: 2px solid blue; */
+}
+
+.nav__link {
+  /* border: 2px solid green; */
+  margin: 0 1rem;
+  color: #8795a1;
+}
+
+.nav__link:hover {
+  color: #000000;
+}

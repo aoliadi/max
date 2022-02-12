@@ -1,0 +1,68 @@
+.home4__container {
+  /* border: 2px solid red; */
+
+  justify-content: center;
+
+  padding-top: 5rem;
+  padding-bottom: 6.5rem;
+}
+
+.home4__img {
+  margin-bottom: 3rem;
+}
+
+.home4__header {
+  /* margin-bottom: 1.5rem; */
+}
+
+.home4__heading {
+  font-size: 1.5rem;
+  font-weight: var(--weight700);
+  text-align: center;
+
+  width: 80%;
+  min-width: 250px;
+  margin: 0 auto;
+}
+
+.home4__list-container {
+  margin: 1.5rem 0;
+}
+
+.home4__list-item {
+  position: relative;
+
+  line-height: 2rem;
+  margin: 1rem 0;
+  padding-left: 2.5rem;
+  /* border: 2px solid blue; */
+}
+
+.home4__list-item::before {
+  content: url(".././../../check-mark-black.svg");
+
+  position: absolute;
+  left: 0;
+  top: 5px;
+}
+
+.home4__list-item > *:first-child {
+  /* border: 2px solid blue; */
+  margin-right: 0.5rem;
+}
+
+.home4__paragraph {
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 500px) {
+  .home4__container {
+    justify-content: space-between;
+  }
+
+  .home4__heading {
+    text-align: left;
+    width: 100%;
+    margin: none;
+  }
+}

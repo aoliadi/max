@@ -1,0 +1,11 @@
+:root {
+  --container-padding: 1.5rem;
+  --navbar-height: 15vh;
+  --yellow: #fddb00;
+  --black: #000000;
+  --header-color: #0f0821;
+  --bg-footer: #2b2d42;
+  --impact: #fffbf7;
+  --weight400: 400;
+  --weight700: 700;
+}
