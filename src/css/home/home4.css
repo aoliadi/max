@@ -39,7 +39,7 @@
 }
 
 .home4__list-item::before {
-  content: url(".././../../check-mark-black.svg");
+  content: url(".././../../images/check-mark-black.svg");
 
   position: absolute;
   left: 0;
